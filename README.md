@@ -12,6 +12,7 @@ Stop rewriting the same prompts and workflows — clone once, use everywhere.
 | `clean-code/`         | Skills for readable, maintainable, production-quality code   |
 | `github/`             | PR reviews, unresolved comment fixes, issue and CI workflows  |
 | `jira/`               | Ticket creation, intake, estimation, sprint planning          |
+| `figma/`              | Implement UI components and pages from Figma designs         |
 | `specs/`              | Feature specs, implementation plans, API and component specs |
 | `implementation/`     | Execute a committed spec or scoped change safely             |
 | `testing/`            | Unit tests, E2E triage, coverage maps, test strategy           |
