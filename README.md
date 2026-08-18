@@ -1,4 +1,4 @@
-# 🧰 ai-skills-kit
+# 🧰 ai-skills-boilerplate
 
 A collection of reusable AI skill files designed to plug into any project.
 Stop rewriting the same prompts and workflows — clone once, use everywhere.
