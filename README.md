@@ -17,10 +17,7 @@ Stop rewriting the same prompts and workflows — clone once, use everywhere.
 | `implementation/`     | Execute a committed spec or scoped change safely             |
 | `testing/`            | Unit tests, E2E triage, coverage maps, test strategy           |
 | `observability/`      | Sentry triage, alarm review, incident investigation             |
-| `product/`            | Epic analysis, story breakdown, acceptance criteria drafting   |
-| `documentation/`      | Docs maintenance, language parity, how-to guides, changelogs  |
-| `ai-platform/`        | Agent skills, MCP servers, model catalog, AI platform workflows |
-| `ci/`                 | Scheduled audits, CI failure analysis, automated reports       |
+| `product/`            | Epic analysis, story breakdown, product context, acceptance criteria |
 
 Each folder is a domain. Each file is one focused, portable skill.
 
