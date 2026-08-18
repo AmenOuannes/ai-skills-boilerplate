@@ -7,16 +7,36 @@ Stop rewriting the same prompts and workflows — clone once, use everywhere.
 
 ## What's inside
 
-| Category        | Description                                          |
-|-----------------|------------------------------------------------------|
-| `clean-code/`   | Skills for writing readable, maintainable code       |
-| `github/`       | GitHub Actions workflows and PR review skills        |
-| `jira/`         | Ticket writing, estimation, and sprint planning      |
-| `specs/`        | Spec generation for features, APIs, and components   |
-| `testing/`      | Unit test generation and coverage guidance           |
-| `git/`          | Commit messages, branching conventions, changelogs   |
+| Category              | Description                                                   |
+|-----------------------|---------------------------------------------------------------|
+| `clean-code/`         | Skills for readable, maintainable, production-quality code   |
+| `git/`                | Commit messages, branch naming, changelogs, release notes     |
+| `github/`             | PR reviews, unresolved comment fixes, issue and CI workflows  |
+| `jira/`               | Ticket creation, intake, estimation, sprint planning          |
+| `specs/`              | Feature specs, implementation plans, API and component specs |
+| `implementation/`     | Execute a committed spec or scoped change safely             |
+| `testing/`            | Unit tests, E2E triage, coverage maps, test strategy           |
+| `observability/`      | Sentry triage, alarm review, incident investigation             |
+| `product/`            | Epic analysis, story breakdown, acceptance criteria drafting   |
+| `documentation/`      | Docs maintenance, language parity, how-to guides, changelogs  |
+| `ai-platform/`        | Agent skills, MCP servers, model catalog, AI platform workflows |
+| `ci/`                 | Scheduled audits, CI failure analysis, automated reports       |
+
+Each folder is a domain. Each file is one focused, portable skill.
 
 ---
+
+## Skill format
+
+A skill is a single Markdown file with one clear responsibility. Keep it tool-agnostic when possible — the same skill should be useful in OpenCode, Cursor, Copilot, or Claude Code.
+
+Top of every skill file:
+
+- **What it does** — one sentence
+- **When to use it** — trigger condition
+- **Inputs** — what the agent needs from the user or context
+- **Output** — what the agent should produce
+- **Steps** — concise, numbered workflow
 
 ## Getting started
 
