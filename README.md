@@ -10,7 +10,6 @@ Stop rewriting the same prompts and workflows — clone once, use everywhere.
 | Category              | Description                                                   |
 |-----------------------|---------------------------------------------------------------|
 | `clean-code/`         | Skills for readable, maintainable, production-quality code   |
-| `git/`                | Commit messages, branch naming, changelogs, release notes     |
 | `github/`             | PR reviews, unresolved comment fixes, issue and CI workflows  |
 | `jira/`               | Ticket creation, intake, estimation, sprint planning          |
 | `specs/`              | Feature specs, implementation plans, API and component specs |
