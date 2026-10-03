@@ -16,6 +16,7 @@ Divide all fullstack tickets into this 6-phase order:
 4. `Step 4: [Frontend UI components, state management, and translations]`
 5. `Step 5: [Frontend unit tests and integration tests]`
 6. `Step 6: [End-to-end verification, typechecks, linters, and build validation]`
+7. `Step 7: [If work wasn't commited, prepare multiple commits and a pr description using your /create-pr-description skill]`
 
 ## Execution Rules
 1. Always output the full checklist with updated status markers at the start of every response.
